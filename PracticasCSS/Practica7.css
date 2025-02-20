@@ -1,0 +1,35 @@
+div
+{
+    text-align: center;
+}
+
+h1
+{
+    color: red;
+}
+
+h2
+{
+    color: aqua;
+}
+
+p
+{
+    color: bisque;
+    font-size: large;
+}
+
+p a
+{
+    color: aqua;
+}
+
+.headingclass
+{
+    font-style: italic;
+}
+
+#header-container
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
