@@ -1,0 +1,24 @@
+#uno{
+    background-color: red;
+    width: 200px;
+    height: 500px;
+    left: 300px;
+    position: absolute;
+}
+
+#dos{
+    background-color: blue;
+    height: 300px;
+    width: 600px;
+    position: absolute;
+    left: 500px;
+}
+
+#tres{
+    background-color: orange;
+    height: 200px;
+    width: 600px;
+    position: absolute;
+    left: 500px;
+    bottom: 438px;
+}
