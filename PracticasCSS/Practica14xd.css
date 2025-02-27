@@ -17,6 +17,7 @@ gap: 20px;
 max-width: 1200px;
 margin: auto;
 grid-template-columns: repeat(3,1fr);
+grid-template-rows: repeat(3,1fr);
 align-items: start;
 }
 
@@ -41,17 +42,11 @@ align-items: start;
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    justify-content: center;
 }
 
-.redondo img
+.redondo
 {
     width: 120px;
     height: 120px;
-}
-
-.GalleryOpacity
-{
-    opacity: 0.5;
-    justify-content: center;
+    border-radius: 50%;
 }
