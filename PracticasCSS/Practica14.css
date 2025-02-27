@@ -36,9 +36,9 @@ grid-template-columns: repeat(3,1fr);
     object-fit: cover;
 }
 
-.GalleryRedondo
+/*.GalleryRedondo
 {
-}
+}*/
 .GalleryRedondo img
 {
     width: 120px;
@@ -46,7 +46,7 @@ grid-template-columns: repeat(3,1fr);
     border-radius: 50%;
 }
 
-.GalleryOpacity img
+/*.GalleryOpacity img
 {
 
-}
+}*/
