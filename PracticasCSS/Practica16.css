@@ -1,0 +1,39 @@
+h1
+{
+    font-family: 'Times New Roman', Times, serif;
+    /*margin: 1em;*/
+    font-size: xxx-large;
+    text-align: center;
+    border-bottom: 4px solid black;
+}
+.MainContainer
+{
+    justify-content: center;
+    display: block;
+    background-color: white;
+    padding: 20px;
+    border: 4px solid black;
+    margin-top: black;
+
+}
+
+/*.GalleryIma
+{
+    flex: 1;
+    padding: 10px;
+    float: left;
+}*/
+
+div img
+{
+    flex: 1;
+    padding: 10px;
+    float: left;
+    width: 250px;
+    height: 200px;
+}
+
+/*div[class="texto"]
+{
+    
+}*/

@@ -1,0 +1,27 @@
+/*child*/
+h2 > span
+{
+    color: blue;
+}
+
+/*Adyacente*/
+h1 + h2
+{
+    color: rgb(120, 243, 96);
+}
+
+/*Atributos*/
+h1[class="rojo"]
+{
+    color: red;
+}
+
+p
+{
+    font-size: xx-large;
+}
+
+h2
+{
+    font-size: xx-large;
+}
