@@ -1,46 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galeria de imagenes</title>
-    <link rel="stylesheet" href="C:\Users\LoneK\OneDrive\Documentos\GitHub\ResponsividadWebS2\PracticasCSS\Practica14.css">
+    <title>Imágenes con Estilo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            font-style: italic;
+        }
+
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .gallery-container img {
+            width: 200px;
+            height: 100px;
+        }
+
+        .gallery-contain img {
+            object-fit: contain;
+            background-color: red;
+        }
+
+        .gallery-cover img {
+            object-fit: cover;
+        }
+
+        .gallery-round img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            display: flex;
+        }
+    </style>
 </head>
 <body>
-    <h1>Etiquetas de imagen con estilo </h1>
-    <div class="GalleryContainer">
-        <div class="GalleryFill">
+    <h1>Etiquetas de imagen con estilos</h1>
+    <div class="gallery-container">
+        <div class="gallery-fill">
             <img src="C:\Users\LoneK\OneDrive\Documentos\GitHub\ResponsividadWebS2\IMG\MONKY1.jpg">
             <img src="C:\Users\LoneK\OneDrive\Documentos\GitHub\ResponsividadWebS2\IMG\MONKY1.jpg">
             <img src="C:\Users\LoneK\OneDrive\Documentos\GitHub\ResponsividadWebS2\IMG\MONKY1.jpg">
-            <img src="C:\Users\LoneK\OneDrive\Documentos\GitHub\ResponsividadWebS2\IMG\MONKY1.jpg" class="redondo">
         </div>
-        
-        <div class="GalleryContain">
+        <div class="gallery-contain">
             <img src="C:\Users\LoneK\OneDrive\Documentos\GitHub\ResponsividadWebS2\IMG\MONKY2.jpg">
             <img src="C:\Users\LoneK\OneDrive\Documentos\GitHub\ResponsividadWebS2\IMG\MONKY2.jpg">
             <img src="C:\Users\LoneK\OneDrive\Documentos\GitHub\ResponsividadWebS2\IMG\MONKY2.jpg">
-            <img src="C:\Users\LoneK\OneDrive\Documentos\GitHub\ResponsividadWebS2\IMG\MONKY2.jpg" class="redondo">
         </div>
-    
-        <div class="GalleryCover">
+        <div class="gallery-cover">
             <img src="C:\Users\LoneK\OneDrive\Documentos\GitHub\ResponsividadWebS2\IMG\MONKY3.jpg">
             <img src="C:\Users\LoneK\OneDrive\Documentos\GitHub\ResponsividadWebS2\IMG\MONKY3.jpg">
             <img src="C:\Users\LoneK\OneDrive\Documentos\GitHub\ResponsividadWebS2\IMG\MONKY3.jpg">
-            <img src="C:\Users\LoneK\OneDrive\Documentos\GitHub\ResponsividadWebS2\IMG\MONKY3.jpg" class="redondo">
         </div>
-
-       <!--<div class="GalleryRedondo">
-            <img src="C:\Users\LoneK\OneDrive\Documentos\GitHub\ResponsividadWebS2\IMG\MONKY1.jpg">
-            <img src="C:\Users\LoneK\OneDrive\Documentos\GitHub\ResponsividadWebS2\IMG\MONKY1.jpg" class="Opacity">
-        </div>
-
-        <div class="GalleryOpacity">
-            <img src="C:\Users\LoneK\OneDrive\Documentos\GitHub\ResponsividadWebS2\IMG\MONKY2.jpg" class="redondo">
+        <div class="gallery-round">
             <img src="C:\Users\LoneK\OneDrive\Documentos\GitHub\ResponsividadWebS2\IMG\MONKY1.jpg">
             <img src="C:\Users\LoneK\OneDrive\Documentos\GitHub\ResponsividadWebS2\IMG\MONKY2.jpg">
             <img src="C:\Users\LoneK\OneDrive\Documentos\GitHub\ResponsividadWebS2\IMG\MONKY3.jpg">
-        </div>-->
+        </div>
     </div>
 </body>
 </html>
