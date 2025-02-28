@@ -1,11 +1,12 @@
 h1
 {
     font-family: 'Times New Roman', Times, serif;
-    /*margin: 1em;*/
     font-size: xxx-large;
     text-align: center;
     border-bottom: 4px solid black;
+    color: rgb(16, 16, 204);
 }
+
 .MainContainer
 {
     justify-content: center;
@@ -14,26 +15,16 @@ h1
     padding: 20px;
     border: 4px solid black;
     margin-top: black;
+    font-family: cursive;
+    text-align: justify;
 
 }
-
-/*.GalleryIma
-{
-    flex: 1;
-    padding: 10px;
-    float: left;
-}*/
 
 div img
 {
     flex: 1;
     padding: 10px;
     float: left;
-    width: 250px;
-    height: 200px;
+    width: 400px;
+    height: auto;
 }
-
-/*div[class="texto"]
-{
-    
-}*/
