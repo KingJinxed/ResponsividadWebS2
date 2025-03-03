@@ -1,21 +1,29 @@
 h1
 {
+    font-size:xx-large;
     text-align: center;
     color: white;
 }
 
 .mainContainer
 {
-    background-image: url(../IMG/Jinx.jpg);
-    object-fit: none;
+    background-color: blue;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    position: relative;
+}
+
+.containerB
+{
+    width: 500px;
+    height: auto;
+    left: 50px;
 }
 
 .formu
 {
+    background-image: url(../IMG/Jinx.jpg);
     text-align: center;
     width: 500px;
     height: auto;
@@ -43,6 +51,3 @@ button[type="submit"]
 {
     border-radius: 5px;
 }
-
-
-
