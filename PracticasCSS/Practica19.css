@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Nanum+Gothic+Coding&family=Noto+Sans+Tagalog&family=Sigmar&family=Sixtyfour+Convergence&display=swap');
+body
+{
+    font-family: Sigmar;
+    background-color: rgb(77, 77, 243);
+}
+
+h1
+{
+    font-family: Sixtyfour Convergence;
+    text-align: center; 
+    color: white;
+}
+
+textarea
+{
+    font-family: Sigmar;
+    width: 750px;
+    height: 500px;
+}
+
+legend
+{
+    color: white;
+    font-size: x-large;
+}
+
+label
+{
+    padding: 80px;
+}
+
+input
+{
+    font-family: Jacquard 12;
+}
+
+
+button,select
+{
+    font-family: Sigmar;
+}
