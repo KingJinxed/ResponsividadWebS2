@@ -1,53 +1,72 @@
+
 h1
 {
-    font-size:xx-large;
     text-align: center;
+    font-size:xx-large;
     color: white;
 }
 
-.mainContainer
-{
-    background-color: blue;
+body {
+
+    margin: 0;
+    padding: 0;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
     position: relative;
 }
 
 .containerB
 {
-    width: 500px;
-    height: auto;
-    left: 50px;
+    position: relative;
+    width: 50%;
+    max-width: 440px;
+    height: 550.33px;
+    background-image: url(../IMG/JINXYYYYY.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    bottom: 5%;
+    right: 2.5%;
+    z-index: 0; 
 }
+
+.mainContainer
+{
+    position: absolute;
+    width: 50%;
+    max-width: 400px;
+    padding: 20px;
+    background-image: url(../IMG/Jinx.jpg); 
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+
 
 .formu
 {
-    background-image: url(../IMG/Jinx.jpg);
-    text-align: center;
-    width: 500px;
-    height: auto;
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
     border-radius: 10px;
 }
 
-Input[type="text"]
-{
+input, button {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
     border-radius: 5px;
 }
-Input[type="number"]
-{
-    border-radius: 5px;
-}
-Input[type="date"]
-{
-    border-radius: 5px;
-}
-Input[type="email"]
-{
-    border-radius: 5px;
-}
-button[type="submit"]
-{
-    border-radius: 5px;
+
+button {
+    color: white;
+    cursor: pointer;
 }
