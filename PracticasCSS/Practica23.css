@@ -1,0 +1,51 @@
+.mainContainer
+{
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+}
+
+.grid
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    padding: 20px;
+}
+
+.grid img
+{
+    width: 400px;
+    height: 400px;
+}
+
+/*.img-fluid
+{
+    width: 400px;
+    height: 400px;
+}
+
+.img-start
+{
+    width: 400px;
+    height: 400px;
+}
+
+.img-end
+{
+    width: 400px;
+    height: 400px;
+}*/
+
+h1
+{
+    color: white;
+    background-color: orange;
+    padding: 20px;
+}
+
+.img-fluid img
+{
+    
+}

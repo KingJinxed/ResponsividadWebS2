@@ -1,0 +1,50 @@
+.uno
+{
+    background-color: aqua;
+}
+
+.dos
+{
+    background-color: blueviolet;
+}
+
+.tres
+{
+    background-color: brown;
+}
+
+
+.row align-items-start
+{
+    border: solid;
+    margin: 20px;
+    height: 100px;
+}
+
+.row align-items-center
+{
+    border: solid;
+    margin: 20px;
+    height: 100px;
+}
+
+.row align-items-end
+{
+    border: solid;
+    margin: 20px;
+    height: 100px;
+}
+
+.row
+{
+    border: solid;
+    margin: 20px;
+    height: 100px;
+}
+
+/*.container4
+{
+    border: solid;
+    margin: 20px;
+    height: 100px;
+}*/
