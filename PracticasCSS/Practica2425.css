@@ -1,0 +1,19 @@
+h1
+{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+    padding: 20px;
+}
+
+.mainContainer
+{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+body
+{   
+    background-color: orange;
+}
